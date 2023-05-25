@@ -1,0 +1,54 @@
+.similar-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.price-rating-tag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.s-img {
+  width: 17px;
+  margin-left: 4px;
+}
+
+.rating-tag {
+  background-color: #3b82f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 28px;
+  color: #ffffff;
+  border-radius: 5px;
+  font-family: Roboto;
+}
+
+.similar-head {
+  font-size: 18px;
+  color: #12022f;
+  font-family: Roboto;
+}
+
+.similar-brand {
+  font-size: 18px;
+  color: #616e7c;
+}
+
+.similar-cost {
+  font-weight: 600;
+  font-size: 20px;
+  color: #12022f;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-item {
+    width: 30%;
+  }
+
+  .similar-head {
+    font-size: 30px;
+  }
+}
